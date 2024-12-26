@@ -2,8 +2,30 @@
 <p>Hello my skibidi toilet</p>
 <img src="si.jpg" alt="skibidi" />
 <style>
-     body {
-    background-color: blue;
-    color: pink;
-    font-size: 40px;
+     body { /* Style the navigation bar */
+        nav {
+            background-color: blue; /* Dark background color */
+            overflow: hidden; /* Clear floats */
+        }
+
+        /* Style the links inside the bar */
+        nav a {
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        /* Add a hover effect */
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        /* Remove bullets and margin from the list */
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
 }
